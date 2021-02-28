@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0094ff;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  margin: 0;
+}
+
+form {
+  background-color: #ffffff;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
+  border-radius: 3.5px;
+  padding: 30px 20px;
+  max-width: 450px;
+  margin: 0 auto;
+}
+
+.form-control {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.form-control label {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 18px;
+}
+
+.form-control input {
+  border: 2px solid #777;
+  display: block;
+  width: 100%;
+  padding: 6px;
+  border-radius: 4px;
+  font-family: inherit;
+  font-size: 16px;
+}
+
+.form-control select {
+  border: 2px solid #777;
+  display: block;
+  width: 100%;
+  padding: 6px;
+  border-radius: 4px;
+  font-family: inherit;
+  font-size: 16px;
+}
+
+.form-control option {
+  border: 2px solid #777;
+  display: block;
+  width: 100%;
+  padding: 6px;
+  border-radius: 4px;
+  font-family: inherit;
+  font-size: 16px;
+}
+
+.form-control input[type="radio"],
+input[type="checkbox"] {
+  width: auto;
+  display: inline-block;
+}
+
+.form-control textarea {
+  font-family: inherit;
+  width: 100%;
+  display: block;
+  font-size: inherit;
+  border-radius: 5px;
+}
+
+.form-control button {
+  font-family: inherit;
+  width: 100%;
+  padding: 10px;
+  display: block;
+  font-size: inherit;
+  border-radius: 5px;
+  background-color: #00bbff;
+  color: white;
+}
