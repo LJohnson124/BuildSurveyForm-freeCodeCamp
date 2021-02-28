@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="title">Star Wars Survey Form</h1>
+<p id="description">
+  <i>Thank you for taking the time to take a Star Wars Quiz</i>
+</p>
+
+<form id="survey-form">
+  <div class="form-control">
+    <label for="name" id="name-label">Name </label>
+    <input type="text" id="name" placeholder="Enter your name" required>
+  </div>
+
+  <div class="form-control">
+    <label for="email" id="email-label">Email </label>
+    <input type="email" id="email" placeholder="Enter your email" required>
+  </div>
+
+  <div class="form-control">
+    <label for="age" id="number-label">Age </label>
+    <input type="number" id="number" placeholder="Enter your age" min="8" max="13" required>
+  </div>
+
+  <div class="form-control">
+    <label for="movie" id="movie-label">What's your favorite Star Wars movie? </label>
+    <select name="movie" id="dropdown" placeholder="Select a movie">
+      <option disabled selected value>Select a movie</option>
+      <option value="e1">Star Wars: The Phantom Menace</option>
+      <option value="e2">Star Wars: Attack of the Clones</option>
+      <option value="e3">Star Wars: Revenge of the Sith</option>
+      <option value="e4">Star Wars: A New Hope</option>
+      <option value="e5">Star Wars: The Empire Strikes Back</option>
+      <option value="e6">Star Wars: Return of the Jedi</option>
+      <option value="e7">Star Wars: The Force Awakens</option>
+      <option value="e8">Star Wars: The Last Jedi</option>
+      <option value="e9">Star Wars: The Rise of Skywalker</option>
+    </select>
+  </div>
+
+  <div class="form-control">
+    <label for="age" id="number-label">Would you recommend Star Wars to a friend or family member?
+      <label for="recommend"><input type="radio" value="recommend-1" name="recommend"> Definitely!</label>
+      <label for="recommend"><input type="radio" value="recommend-2" name="recommend"> Maybe</label>
+      <label for="recommend"><input type="radio" value="recommend-3" name="recommend"> Not Sure</label>
+  </div>
+  <div class="form-control">
+    <label for="characters" id="characters-label">Who are your favorite characters in Star Wars?</label>
+    <label for="character"><input type="checkbox" name="character" value="1" id="charcter-1"> Luke Skywalker
+    </label>
+    <label for="character"><input type="checkbox" name="character" value="2" id="character-1"> Leia Organa
+    </label>
+    <label for="character"><input type="checkbox" name="character" value="3" id="character-3"> Han Solo
+    </label>
+    <label for="character"><input type="checkbox" name="character" value="4"> Chewbacca
+    </label>
+    <label for="character"><input type="checkbox" name="character" value="5"> Darth Vader
+    </label>
+    <label for="character"><input type="checkbox" name="character" value="6"> Anakin Skywalker
+    </label>
+    <label for="character"><input type="checkbox" name="character" value="7"> Obi-Wan Kenobi
+    </label>
+    <label for="character"><input type="checkbox" name="character" value="8"> Padme Amidala
+    </label>
+    <label>
+      <input type="checkbox" name="character" value="9"> Rey Skywalker
+      <label>
+        <input type="checkbox" name="character" value="10"> Finn</input>
+      </label>
+      <input type="checkbox" name="character" value="11"> Poe Dameron
+    </label>
+    <label>
+      <input type="checkbox" name="character" value="12"> Rose Tico
+    </label>
+    <label>
+      <input type="checkbox" name="character" value="13"> C-3PO
+    </label>
+    <label>
+      <input type="checkbox" name="character" value="14"> R2-D2
+    </label>
+    <label>
+      <input type="checkbox" name="character" value="15"> BB-8
+    </label>
+  </div>
+
+  <div class="form-control">
+    <label for="comment">What do you like about Star Wars?</label>
+    <textarea id="comment" rows="4" cols="40" placeholder="Enter Your Comment Here..."></textarea>
+  </div>
+  <div class="form-control">
+    <button type="submit" id="submit">Submit</button>
+  </div>
+</form>
+
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>
