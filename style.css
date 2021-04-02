@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #0094ff;
+  background-image: linear-gradient(62deg, #00b7ff, #0094ff, #0059ff, #00f);
   font-family: "Poppins", sans-serif;
   text-align: center;
   margin: 0;
